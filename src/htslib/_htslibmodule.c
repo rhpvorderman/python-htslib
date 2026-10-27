@@ -23,7 +23,6 @@ python-htslib. If not, see <https://www.gnu.org/licenses/>.
 
 #include <htslib/hts.h>
 
-
 struct HtslibModuleState {
     PyTypeObject *PythonArray_Type;  // array.array
 };
